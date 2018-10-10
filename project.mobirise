@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "n-Hexane.com",
-    "currentPage": "qualitystatement.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "commercem4",
       "title": "CommerceM4",
@@ -55,7 +55,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "n-Hexane.com - Buy from the China's leading n-Hexane manufacturer.",
         "meta_descr": "Hexane prices, specifications, packagings and delivery services are listed in this trusted website, which is owned by JPG, a market member of China Petroleum.",
         "header_custom": "<meta name=\"msvalidate.01\" content=\"4BCF59B2C0C6A7694A608869CA64AAB0\" />",
         "footer_custom": "",
