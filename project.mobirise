@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "n-Hexane.com",
-    "currentPage": "index.html",
+    "currentPage": "sales_quote_request.html",
     "theme": {
       "name": "commercem4",
       "title": "CommerceM4",
@@ -52,7 +52,7 @@
     "robotsSwitcher": "on",
     "siteUrl": "http://www.n-hexane.com/sitemap.xml",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 227,
+    "uniqCompNum": 229,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -14873,6 +14873,7 @@
           "_params": {}
         },
         {
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -14906,22 +14907,24 @@
             "textarea::-moz-placeholder": {
               "color": "@labelsColor"
             },
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "text-align": "left"
+            "textarea.form-control": {
+              "min-height": "83px"
             },
-            ".mbr-section-subtitle DIV": {
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "DIV": {
               "text-align": "left"
             }
           },
           "_name": "form3",
-          "_customHTML": "<section group=\"Forms & Maps\" class=\"form3\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"form-1 col-md-10 col-lg-8\">\n                <h2 class=\"mbr-fonts-style mbr-section-title align-center\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    Sales Quote Request</h2>\n                <h3 class=\"mbr-fonts-style mbr-section-subtitle align-center\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">Need a quote on n-Hexane? Fill out this form and a sales representative will contact you to regarding this quote. Please provide us with as much info as possible in order to assist you.&nbsp;<div>\n</div><div>If you need immediate assistance, please call us at +86 178 1030 0898.</div></h3>\n\n                <form class=\"mbr-form\" mbr-class=\"{'pt-4':showTitle || showSubtitle}\" action=\"info@n-hexane.com\" method=\"post\" name=\"My Mobirise Form\">\n                    <div data-form-alert hidden>Thanks for filling out the form, we will get it back to you as soon as possible.</div>\n                    <div class=\"row\">\n                        <div class=\"col-lg-6 mb-3\" data-for=\"name\">\n                            <input type=\"text\" class=\"form-control input\" name=\"name\" data-form-field=\"Name\" placeholder=\"Your Name*\" required>\n                        </div>\n                        <div class=\"col-lg-6 mb-3\" data-for=\"lastname\">\n                            <input type=\"text\" class=\"form-control input\" name=\"lastname\" data-form-field=\"Last Name\" placeholder=\"Last Name\">\n                        </div>\n                        <div class=\"col-lg-6 mb-3\" data-for=\"email\">\n                            <input type=\"email\" class=\"form-control input\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email*\" required>\n                        </div>\n                        <div class=\"col-lg-6 mb-3\" data-for=\"phone\">\n                            <input type=\"text\" class=\"form-control input\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\">\n                        </div>\n                        <div class=\"col-md-12 mb-2\" data-for=\"message\">\n                            <textarea class=\"form-control input\" name=\"message\" rows=\"3\" data-form-field=\"Message\" placeholder=\"Message\"></textarea>\n                        </div>\n                        <div class=\"input-group-btn col-md-12 mt-2 align-left\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><a href type=\"submit\" class=\"btn btn-form btn-bgr btn-primary\" data-app-placeholder=\"Type Text\">Send Message</a></div>\n                    </div>\n                </form>\n            </div>\n        </div>\n   </div>\n</section>",
-          "_cid": "r4AbucCOaX",
-          "_anchor": "form3-65",
+          "_customHTML": "<section group=\"Forms & Maps\" class=\"form3\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"form-1 col-md-10 col-lg-8\">\n                <h2 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style mbr-fonts-style mbr-section-title align-center\">Sales Quote Request</h2>\n                <h3 mbr-theme-style=\"display-7\" class=\"mbr-fonts-style mbr-fonts-style mbr-section-subtitle align-center\">Need a quote on n-Hexane? Fill out this form and a sales representative will contact you to regarding this quote. Please provide us with as much info as possible in order to assist you. \n<div>If you need immediate assistance, please call us at +86 178 1030 0898.</div></h3>\n                <div class=\"form-wrap pt-4\" mbr-form>\n                <!---Formbuilder Form--->\n                    <form action=\"info@n-Hexane.com\" name=\"My Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form, we will get back to you as soon as possible.</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"></div>\n                        </div>\n                        <div class=\"dragArea row\">\n                            <div data-for=\"name\" class=\"col-lg-6  mb-3 form-group\">\n                                <input type=\"text\" name=\"name\" placeholder=\"Your Name*\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" class=\"form-control input\" required=\"required\">\n                            </div>\n                            <div data-for=\"lastname\" class=\"col-lg-6  mb-3 form-group\">\n                                    <input type=\"text\" name=\"lastname\" placeholder=\"Last Name\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" class=\"form-control input\">\n                            </div>\n                            <div data-for=\"email\" class=\"col-lg-6  mb-3 form-group\">\n                                    <input type=\"email\" name=\"email\" placeholder=\"Email*\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control input\" required=\"required\">\n                            </div>\n                            <div data-for=\"phone\" class=\"col-lg-6  mb-3 form-group\">\n                                    <input type=\"text\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control input\">\n                            </div>\n                            <div class=\"col-md-12  mb-2 form-group\" data-for=\"message\">\n                                    <textarea name=\"message\" placeholder=\"Message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control input\"></textarea>\n                            </div>\n                            <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\" class=\"col-md-12 input-group-btn  mt-2 align-left\">\n                            <a type=\"submit\" class=\"btn btn-form btn-bgr btn-primary\">Send Message</a>\n                            </div>\n                        </div>\n                    </form><!---Formbuilder Form--->\n                </div>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_cid": "sd0mrtbXKT",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "form3-6c"
         },
         {
           "_styles": {

@@ -12856,12 +12856,12 @@ body {
     left: -1rem;
   }
 }
-.cid-r4AbucCOaX {
+.cid-sd0mrtbXKT {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-r4AbucCOaX .form-control {
+.cid-sd0mrtbXKT .form-control {
   color: #000000 !important;
   border: none;
   border-radius: 0 !important;
@@ -12869,27 +12869,29 @@ body {
   padding: .5rem 0rem;
   border-bottom: 1px solid #000000;
 }
-.cid-r4AbucCOaX .form-control:focus {
+.cid-sd0mrtbXKT .form-control:focus {
   outline: none;
   box-shadow: none;
 }
-.cid-r4AbucCOaX input::-webkit-input-placeholder {
+.cid-sd0mrtbXKT input::-webkit-input-placeholder {
   color: #000000;
 }
-.cid-r4AbucCOaX input::-moz-placeholder {
+.cid-sd0mrtbXKT input::-moz-placeholder {
   color: #000000;
 }
-.cid-r4AbucCOaX textarea::-webkit-input-placeholder {
+.cid-sd0mrtbXKT textarea::-webkit-input-placeholder {
   color: #000000;
 }
-.cid-r4AbucCOaX textarea::-moz-placeholder {
+.cid-sd0mrtbXKT textarea::-moz-placeholder {
   color: #000000;
 }
-.cid-r4AbucCOaX .mbr-section-subtitle {
+.cid-sd0mrtbXKT textarea.form-control {
+  min-height: 83px;
+}
+.cid-sd0mrtbXKT .mbr-section-subtitle {
   color: #767676;
-  text-align: left;
 }
-.cid-r4AbucCOaX .mbr-section-subtitle DIV {
+.cid-sd0mrtbXKT DIV {
   text-align: left;
 }
 .cid-r4zIInyQ39 {
