@@ -79,7 +79,7 @@
     "sitemapSwitcher": "on",
     "imageResize": true,
     "mbrsiteDomain": "3uycpdgrjj",
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
